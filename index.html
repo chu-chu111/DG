@@ -42,7 +42,9 @@
         html {
             scroll-behavior: smooth;
         }
-
+#home img{
+    width: 100%;
+}
         /* Navbar Styling */
         .navbar {
             background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-blue) 100%);
@@ -54,6 +56,9 @@
         .navbar-brand img {
             height: 50px;
             transition: transform 0.3s ease;
+            background-color: #FFF;
+            padding: 5px;
+            border-radius: 5px;
         }
 
         .navbar-brand:hover img {
@@ -408,7 +413,12 @@
     <section id="home" class="hero-section">
         <div class="container">
             <div class="row align-items-center hero-content">
-                <div class="col-lg-8 mx-auto text-center">
+                <div class="col-md-5">
+                    <div class="dg-image-wrapper">
+                        <img src="image/DGG.jpg" alt="Prof. Nnayelugo Martin Ike-Muonso" class="dg-image">
+                    </div>
+                </div>
+                <div class="col-lg-7">
                     <h1>Prof. Nnayelugo Martin Ike-Muonso</h1>
                     <h2>Director General</h2>
                     <h3>Raw Materials Research and Development Council</h3>
